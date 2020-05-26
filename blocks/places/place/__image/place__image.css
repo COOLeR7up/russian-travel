@@ -1,0 +1,38 @@
+.place__image {
+    max-width: 460px;
+    height: 460px;
+    margin-top: 48px;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+        height: 440px;
+        margin-right: 32px;
+    }
+  }
+
+@media only screen and (max-width: 950px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+        margin-right: 28px;
+    }
+  }
+
+  @media only screen and (max-width: 718px) {
+    .place__image {
+        width: 320px;
+        height: 320px;
+        margin: 40px auto;
+    }
+  }
+
+@media only screen and (max-width: 350px) {
+    .place__image {
+        width: 320px;
+        height: 320px;
+        margin: 32px auto 0;
+    }
+  }

@@ -1,0 +1,11 @@
+.place__website {
+    max-width: 456px;
+    align-self: flex-end;
+}
+
+@media only screen and (max-width: 718px) {
+    .place__website {
+        display: none;
+        
+    }
+  }

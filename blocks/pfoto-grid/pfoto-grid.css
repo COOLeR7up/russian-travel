@@ -1,0 +1,33 @@
+@import url(./_img/pfoto-grid-img.css);
+
+.pfoto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-gap: 16px;
+    margin: 0 auto;
+    max-width: 1184px;
+    padding: 0 48px;
+    margin-top: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .pfoto-grid {
+        grid-gap: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pfoto-grid {
+        grid-gap: 16px;
+        padding: 0 24px;
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pfoto-grid {
+        grid-gap: 12px;
+        padding: 0 16px;
+        margin-top: 64px;
+    }
+}

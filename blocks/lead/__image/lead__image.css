@@ -1,0 +1,13 @@
+.lead__image {
+    display: grid;
+    margin: auto;
+    max-width: 984px;
+    max-height: 615px;
+    padding: 0 48px;
+}
+
+@media only screen and (max-width: 768px) {
+  .lead__image {
+      padding: 0;
+  }
+}

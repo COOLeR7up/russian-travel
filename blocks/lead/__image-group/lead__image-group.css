@@ -1,0 +1,10 @@
+.lead__image-group {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    width: 90.05%;
+    height: 36.5%;
+    padding-top: 13.16%;
+    padding-left: 4.3%;
+
+}

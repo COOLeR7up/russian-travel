@@ -1,0 +1,29 @@
+.cover__background {
+    background-image: url(../../../images/__background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 740px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.8;
+    max-width: 100%;
+    width: 100%;
+}
+
+.cover__background:hover {
+    opacity: 0.3;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cover__background  {
+        min-height: calc(100vw*200/320);   
+    }
+  }
+
+@media only screen and (max-width: 320px) {
+    .cover__background  {
+        min-height: 200px;    
+    }
+  }

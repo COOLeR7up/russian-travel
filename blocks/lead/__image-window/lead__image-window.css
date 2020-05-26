@@ -1,0 +1,7 @@
+.lead__image-window {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    max-width: 100%;
+    width: 100%;
+
+}
