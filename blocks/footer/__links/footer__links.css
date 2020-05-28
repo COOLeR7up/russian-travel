@@ -1,13 +1,7 @@
-.footer__links {
-    display: flex;
-    flex-direction: row;
-
-}
-
-@media only screen and (max-width: 555px) {
+@media only screen and (max-width: 350px) {
     .footer__links  {
-        flex-direction: column;
-        min-height: 248px;
-        justify-content: space-between;
+        margin-bottom: 48px;
+        
     }
   }
+

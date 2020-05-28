@@ -17,14 +17,14 @@
   @media only screen and (max-width: 680px) {
     .lead__title {
         max-width: 90vw;
-        font-size: calc( (100vw - 320px)/(750 - 320) * (96 - 40) + 40px);
+        font-size: calc(100vw*40/320);
+        line-height: calc(100vw*44/320)
     }
   }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 363px) {
     .lead__title {
         max-width: 288px;
-        min-height: 88px;
         font-size: 40px;
         line-height: 44px;
     }

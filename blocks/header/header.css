@@ -1,11 +1,11 @@
 @import url(./__logo/header__logo.css);
 @import url(./__ref/header__ref.css);
-@import url(./__ref/_ru/header__ref_ru.css);
-@import url(./__ref/_en/header__ref_en.css);
+@import url(./__refs/header__ref.css);
+@import url(./__ref/_active/header__ref_active.css);
+
 
 .header {
     max-width: 1184px;
-    height: 52px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

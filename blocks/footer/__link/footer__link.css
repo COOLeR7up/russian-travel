@@ -7,14 +7,15 @@
     margin-right: 18px;
 }
 
-.footer__link:last-child {
-    margin-right: 0;
+.footer__link:hover {
+    opacity: 0.8;
 }
 
-@media only screen and (max-width: 555px) {
+@media only screen and (max-width: 350px) {
     .footer__link  {
         font-size: 24px;
         line-height: 24px;
-        margin-right: 0;  
+        margin-right: 0; 
+        
     }
   }

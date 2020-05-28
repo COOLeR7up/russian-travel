@@ -5,13 +5,9 @@
     text-align: center;
     color: #FFFFFF;
     z-index: 1;
-    min-height: 152px;
     max-width: 560px;
     margin: 0 auto;
-}
-/* Можно реализовать через js*/
-.cover__title:hover ~ .cover__background{
-    opacity: 0.3;
+    
 }
 
 @media only screen and (max-width: 550px) {

@@ -1,0 +1,36 @@
+.place__all-paragraph {
+    max-width: 484px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 48px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .place__all-paragraph {
+        max-width: 456px;
+    }
+  }
+
+@media only screen and (max-width: 950px) {
+    .place__all-paragraph {
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+  }
+
+@media only screen and (max-width: 718px) {
+    .place__all-paragraph   {
+        margin: 0 auto; 
+        max-width: 90vw;    
+    }
+  }
+
+@media only screen and (max-width: 320px) {
+    .place__all-paragraph   {
+        margin-top: 32px;
+        max-width: 288px;    
+    }
+  }
