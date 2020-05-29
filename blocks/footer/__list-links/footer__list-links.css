@@ -16,9 +16,7 @@
 @media only screen and (max-width: 350px) {
     .footer__list-links {
         flex-direction: column;
-        height: 77.5vw;
-        justify-content: space-between;
-        
+
     }
   }
 

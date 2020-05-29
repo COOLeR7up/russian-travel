@@ -1,3 +1,7 @@
 .header__ref:hover {
     opacity: 0.8;
 }
+
+.header__ref:first-child {
+    margin-right: 18px;
+}
